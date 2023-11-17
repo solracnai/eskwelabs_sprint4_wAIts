@@ -1,0 +1,17 @@
+streamlit
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+time
+openai
+skllm.config
+skllm
+skllm.preprocessing
+nltk
+nltk.corpus
+spacy
+contractions
+string
+wordcloud
+
