@@ -1,12 +1,11 @@
-streamlit==1.0.0
-pandas==1.3.3
-numpy==1.21.2
-matplotlib==3.4.3
-seaborn==0.11.2
-time==0.1
-openai==0.29.0
-scikit-learn==0.24.2  # Assuming you meant scikit-learn, otherwise adjust accordingly
-nltk==3.6.3
-spacy==3.1.4
-contractions==0.0.52
-wordcloud==1.8.1
+contractions==0.1.73
+matplotlib==3.8.1
+nltk==3.8.1
+numpy==1.26.2
+openai==1.3.2
+pandas==2.1.3
+seaborn==0.13.0
+spacy==3.7.2
+streamlit==1.28.2
+streamlit_chat==0.1.1
+wordcloud==1.9.2
