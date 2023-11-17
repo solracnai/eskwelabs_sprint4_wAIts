@@ -8,7 +8,6 @@ scikit-learn
 nltk
 spacy
 contractions
-string
 wordcloud
 streamlit_chat
 skllm
