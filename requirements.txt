@@ -3,7 +3,6 @@ pandas
 numpy
 matplotlib
 seaborn
-time
 openai
 scikit-learn
 nltk
