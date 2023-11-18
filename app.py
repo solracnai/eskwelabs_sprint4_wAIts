@@ -32,6 +32,15 @@ st.write("MoodGuard is not a replacement for professional mental health guidance
 st.write("Instructions: Upload the input file through the sidebar and then select the \"Start Analyze Data\" button.")
 
 #--------------------------------------------------------------------------------------------------
+import spacy
+
+# Install spaCy model
+spacy.cli.download("en_core_web_sm")
+
+# Load spaCy model
+nlp = spacy.load("en_core_web_sm")
+
+# Your code using the spaCy model
 
 #######################################################
 # Initialize session state
