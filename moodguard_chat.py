@@ -94,7 +94,12 @@ def generate_response(prompt):
 def start_session_chat():
     with st.chat_message("assistant", avatar='👨‍⚕️'):
         prompt = 'Start the session'
-        response = generate_response(prompt)
+
+        try:
+            response = generate_response(prompt)
+        except:
+            response = "Chat is unavailable."
+
         st.markdown(response)
 
         # Add assistant response to chat history
@@ -154,7 +159,10 @@ if prompt := st.chat_input("Enter Message Here"):
         message_placeholder = st.empty()
         response = ""
 
-        assistant_response = generate_response(prompt)
+        try:
+            assistant_response = generate_response(prompt)
+        except:
+            response = "Chat is unavailable."
 
         # Simulate stream of response with milliseconds delay
         for chunk in assistant_response.split():
