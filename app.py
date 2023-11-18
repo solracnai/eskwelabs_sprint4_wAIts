@@ -21,7 +21,6 @@ from nltk.corpus import stopwords
 import spacy
 import contractions
 import string
-import subprocess
 
 from wordcloud import WordCloud
 
@@ -33,6 +32,7 @@ st.write("MoodGuard is not a replacement for professional mental health guidance
 st.write("Instructions: Upload the input file through the sidebar and then select the \"Start Analyze Data\" button.")
 
 #--------------------------------------------------------------------------------------------------
+
 import spacy
 
 # Install spaCy model
