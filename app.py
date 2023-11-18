@@ -21,6 +21,7 @@ from nltk.corpus import stopwords
 import spacy
 import contractions
 import string
+import subprocess
 
 from wordcloud import WordCloud
 
@@ -36,6 +37,10 @@ import spacy
 
 # Install spaCy model
 spacy.cli.download("en_core_web_sm")
+
+
+# Install spaCy model
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
