@@ -1,5 +1,3 @@
---user
---upgrade
 contractions==0.1.73
 imblearn==0.0
 joblib==1.3.2
